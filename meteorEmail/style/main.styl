@@ -1,0 +1,46 @@
+folder-link-color = #9ef
+
+html
+    height: 100%
+body
+    background-color: darkBlue
+    color: white
+    font-family: Courier
+    font-weight: bold
+    font-size: 1.5em
+    padding: 2em
+    height: 76%
+
+    section
+        padding: 0.8em
+        display: inline-block
+        border-right: 2px dashed folder-link-color
+        vertical-align: top
+        height: 100%
+
+    section.left
+        width: 15%
+    section.middle
+        width: 20%
+    section.right
+        width: 50%
+    
+    a
+        color: white
+        text-decoration: none
+        &:hover
+            color: white
+            text-decoration: underline
+
+    ol
+        list-style: none
+        li
+            margin: 0 0 6px 0
+
+        a.folder, a.email
+            color: folder-link-color
+            &:hover
+                color: folder-link-color
+    
+    li.read
+        font-weight: normal

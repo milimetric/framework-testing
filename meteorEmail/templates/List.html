@@ -1,0 +1,17 @@
+<!-- TODO: find out how to factor out a generic List template -->
+
+<template name="EmailFolderList">
+<ol>
+{{#each folders}}
+    {{> EmailFolder }}
+{{/each}}
+</ol>
+</template>
+
+<template name="EmailMessageList">
+<ol>
+{{#each messages}}
+    {{> EmailMessage }}
+{{/each}}
+</ol>
+</template>

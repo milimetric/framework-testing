@@ -1,0 +1,6 @@
+<template name="EmailFolder">
+<li{{#if selected}} class="selected"{{/if}}>
+    <span><a class="folder" href="#{{name}}">{{name}}</a></span>
+    {{#if countExists}}<span>({{count}})</span>{{/if}}
+</li>
+</template>
