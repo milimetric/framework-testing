@@ -1,8 +1,8 @@
 Exploring javascript frameworks by implementing a mock email program in all the interesting ones.  Frameworks:
 
-# [Meteor][http://www.meteor.com] + [Knockout][http://knockoutjs.com]
-# [Ember][http://emberjs.com]
-# [Sammy][http://sammyjs.org]
+[Meteor][http://www.meteor.com] + [Knockout][http://knockoutjs.com]
+[Ember][http://emberjs.com]
+[Sammy][http://sammyjs.org]
 
 The requirements are as follows (subject to change without further notice):
 
